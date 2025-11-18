@@ -1,1 +1,2 @@
 # exunbuild
+This follows the time of 2070, where unlimited power of invisibility and shrinking takes over. The website starts with a simple login page, followed by the current news flodding the country. The news show the current ongoing discoveries of scientiest which lead to the shrinking potion to be developed. The news can be further explored in the next few pages. The products are widely accepted by the population be it for good or bad. Object and Person shrinker potions were developed and ready for sale.
