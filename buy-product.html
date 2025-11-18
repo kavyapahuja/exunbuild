@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Product — etinuxE</title>
+    <link rel="stylesheet" href="buy-product.css">
+</head>
+<body>
+
+   <header class="store-header">
+    <div class="left-links">
+        <button class="reviews-btn" onclick="window.location.href='reviews.html'">
+            ★ Customer Reviews
+        </button>
+    </div>
+
+    <div class="right-links">
+        <button class="cart-btn" onclick="window.location.href='cart.html'">
+            🛒 Cart
+        </button>
+    </div>
+</header>
+
+<section class="products">
+    <div class="product-card">
+        <img src="images/object-shrink.png" class="product-img" alt="Object Shrinker">
+        <h3>Object Shrinker v2</h3>
+        <p class="price">₹4,999</p>
+        <button class="add-btn" data-name="Object Shrinker v2" data-price="4999">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/human-shrink.png" class="product-img" alt="Human Shrinker">
+        <h3>Human Shrinker v1 (Reversible)</h3>
+        <p class="price">₹12,999</p>
+        <button class="add-btn" data-name="Human Shrinker v1" data-price="12999">Add to Cart</button>
+    </div>
+</section>
+
+<section class="benefits">
+    <h2>Why Miniaturization?</h2>
+    <ul>
+        <li>Reduce storage needs by 80%</li>
+        <li>Safe reversible shrinking</li>
+        <li>Transport goods 10× cheaper</li>
+        <li>Zero carbon emission</li>
+        <li>Government-certified</li>
+    </ul>
+</section>
+
+<section class="demo">
+    <h2>Interactive Demo</h2>
+    <p>Drag to shrink the object.</p>
+    <div class="demo-box">
+        <img id="demoImg" src="images/object-demo.png" class="demo-img">
+        <input type="range" min="30" max="100" value="100" id="shrinkSlider">
+    </div>
+</section>
+
+<script src="buy-product.js"></script>
+</body>
+</html>

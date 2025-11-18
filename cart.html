@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<body>
+
+  <header class="cart-header">
+   
+    <a class="back-link" href="buy-product.html">← Continue shopping</a>
+  </header>
+
+  <main class="cart-main">
+    <h1 class="page-title">Your Cart</h1>
+
+    <div class="cart-wrapper">
+
+      <!-- Left: items -->
+      <section id="cartItems" class="cart-items">
+        <!-- JS will render cart items here -->
+      </section>
+
+      <!-- Right: summary -->
+      <aside class="cart-summary">
+        <div class="summary-card">
+          <h2>Order Summary</h2>
+          <div class="summary-line">
+            <span>Items:</span>
+            <span id="itemCount">0</span>
+          </div>
+          <div class="summary-line">
+            <span>Total:</span>
+            <span id="total">₹0</span>
+          </div>
+
+          <button id="checkoutBtn" class="checkout-btn">Proceed to Checkout</button>
+          <button id="clearCartBtn" class="clear-btn">Clear Cart</button>
+        </div>
+      </aside>
+
+    </div>
+
+    <p class="note">Note: This is a demo cart — no real payments are processed.</p>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>

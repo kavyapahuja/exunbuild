@@ -1,0 +1,164 @@
+/* GENERAL */
+body {
+    margin: 0;
+    background: #faf7f2;
+    font-family: 'Inter', sans-serif;
+    color: #222;
+}
+
+/* PRODUCT CARDS */
+.products {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.product-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.price {
+    color: #ff3b3b;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-btn {
+    background: #ff3b3b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background: #e62929;
+    transform: scale(1.05);
+}
+
+/* BENEFITS */
+.benefits {
+    background: white;
+    width: 85%;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* DEMO */
+.demo {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.demo-box {
+    margin: 40px auto;
+   	width: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 3px 18px rgba(0,0,0,0.1);
+}
+
+.demo-img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+#shrinkSlider {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* HEADER (adjusted cart position!) */
+.store-header {
+    width: 100%;
+    padding: 15px 20px; /* reduced from 40px to move cart left */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #eee;
+}
+
+/* Left and right links */
+.left-links, .right-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* EXTRA SHIFT LEFT (main fix!) */
+.right-links {
+    margin-right: 20px;   /* push entire cart area left */
+}
+
+/* Reviews Button (matched to cart style) */
+.reviews-btn {
+    padding: 8px 16px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.4);
+}
+
+.reviews-btn:hover {
+    background: #ff5252;
+}
+
+/* Cart Button */
+.cart-btn {
+    padding: 8px 16px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.4);
+}
+
+.cart-btn:hover {
+    background: #ff5252;
+}

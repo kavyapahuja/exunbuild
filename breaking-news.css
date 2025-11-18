@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#nextBtn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 20px;
+    background: rgb(10, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bn2 {
+    background: url("images/bg2.png") no-repeat center center/cover;
+}

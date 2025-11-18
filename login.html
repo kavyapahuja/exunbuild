@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Miniaturizer Project</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <header class="top-bar">
+        <button class="explore-btn" onclick="window.location.href='../index.html'">
+            Explore the Story →
+        </button>
+
+        <button class="buyp-btn" onclick="window.location.href='../buy-product/buy-product.html'">
+            Buy product →
+        </button>
+    </header>
+
+    <div class="login-box">
+        <h1>Welcome</h1>
+        <p>Log in to begin your journey into the Miniaturizer universe.</p>
+
+        <div class="form-group">
+            <input type="text" id="username" placeholder="Enter username">
+        </div>
+
+        <button class="login-btn" onclick="login()">Login</button>
+
+        <p class="note">This login only stores your name — no password or real authentication.</p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
